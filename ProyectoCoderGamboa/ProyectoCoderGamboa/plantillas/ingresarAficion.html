@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block contenido1 %}
+<h2 class="display-4">Equipo de fut </h2> 
+{% endblock %}
+
+{% block contenidoP1 %}
+
+<form action='/Aficion/' method='get'>
+<p>Equipo Favorito: <input type='text' name='NombreEquipo' id=''></p>
+<p>campeonatos: <input type='number' name='Trofeos' id=''></p>
+<input type='submit' value='enviar'>
+
+</form>
+{% endblock %}

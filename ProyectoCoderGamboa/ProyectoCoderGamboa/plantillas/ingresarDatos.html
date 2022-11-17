@@ -1,0 +1,14 @@
+ {% extends 'index.html' %}
+ {% block contenido1 %}
+ <h2 class="display-4">Datos personales </h2> 
+ {% endblock %}
+
+{% block contenidoP1 %}
+
+<form action='/Datos/' method='get'>
+<p>Nombre: <input type='text' name='Nombre' id=''></p>
+<p>Edad: <input type='number' name='Edad' id=''></p>
+<input type='submit' value='enviar'>
+
+</form>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% block contenido1 %}
+<h2 class="display-4">resultados </h2> 
+{% endblock %}
+
+{% block contenidoP1 %}
+<ul>
+    {% for i in name %}
+    <li>{{i.nombre}}---{{i.edad}}</li>
+        {% endfor %}
+</ul>
+
+{% endblock %}

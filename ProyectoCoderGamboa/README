@@ -1,0 +1,9 @@
+la pagina cuenta con 3 modelos.
+el primero contiene el nombre y la edad del usuario
+el segundo contine el equipo favorito y la cantidad de campeonatos de dicho equipo
+y el tercero contiene una encuesta de su experiencia programando donde pregunta el lenguaje y teimpo programando en este
+La URL /home/ te lleva a el template padre que hereda al resto
+en la URL /Datos/ puedes ingresar tu nombre y edad
+en la URL /Aficion/ ingresas tu equipo de fut y sus campeonatos
+en la URL /Experiencia/ ingresas los datos de tu experiencia programando
+en la URL /Busqueda/ puedes buscar nombres que se guardaron en la base de datos
